@@ -28,11 +28,11 @@ jobs:
           yarn install
           yarn docs:build
 
-      - name: Deploy nutsdo.github.com
+      - name: Deploy nutsdo.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: nutsdo/nutsdo.github.com
+          external_repository: nutsdo/nutsdo.github.io
           publish_branch: main
           publish_dir: docs/.vuepress/dist
 

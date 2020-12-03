@@ -1,0 +1,14 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ant-design-vue": "^1.7.2",
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

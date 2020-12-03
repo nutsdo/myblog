@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{373:function(e,n,t){"use strict";t.r(n);var a={name:"Profile",components:{ParentLayout:t(369).default}},o=t(42),r=Object(o.a)(a,(function(){var e=this.$createElement;return(this._self._c||e)("ParentLayout",[this._v("\n  我的简历\n")])}),[],!1,null,"f7b4e8d4",null);n.default=r.exports}}]);
